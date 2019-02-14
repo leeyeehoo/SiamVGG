@@ -9,6 +9,10 @@ The VOT2018 submision file is available. Feel free to try it! Download the pretr
 
 [Demo](https://www.youtube.com/watch?v=cvP64cmiAmY)
 
-If you find our project useful, please cite our technical report:
+If you find our project useful, please cite our technical report:[@inproceedings{Li2019SiamVGGVT,
+  title={SiamVGG: Visual Tracking using Deeper Siamese Networks},
+  author={Yuhong Li and Xiaofan Zhang},
+  year={2019}
+}]
 (https://arxiv.org/abs/1902.02804)
 
