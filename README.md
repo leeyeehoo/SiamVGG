@@ -5,7 +5,7 @@ Won 4th place in [VOT2018 Realtime Challenge](http://www.votchallenge.net/vot201
 
 We will soon release our training code and testing code.
 
-[Google Drive](https://drive.google.com/file/d/13rx9kMJ1lwpics1Qr9_uKjloqLHfMaoU/view?usp=sharing)
+The VOT2018 submision file is available. Feel free to try it! Download the pretrained data from [Google Drive](https://drive.google.com/file/d/13rx9kMJ1lwpics1Qr9_uKjloqLHfMaoU/view?usp=sharing) and follow the instruction to set up the test.
 
 [Demo](https://www.youtube.com/watch?v=cvP64cmiAmY)
 
