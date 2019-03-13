@@ -9,6 +9,8 @@ The VOT2018 submision file is available. Feel free to try it! Download the pretr
 
 [Demo](https://www.youtube.com/watch?v=cvP64cmiAmY)
 
+ 🔴Currently, I'm trying to combine the RPN module into it. After that, I'll release the training part and the SiamVGGRPN code.
+
 If you find our project useful, please cite our technical report:
 
 @inproceedings{Li2019SiamVGGVT,
@@ -18,4 +20,3 @@ If you find our project useful, please cite our technical report:
 }
 
 [arxiv version](https://arxiv.org/abs/1902.02804)
-
