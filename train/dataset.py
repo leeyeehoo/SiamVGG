@@ -68,10 +68,10 @@ class listDataset(Dataset):
         if self.transform is not None:
             z = self.transform(z)
             x = self.transform(x)
-            template = self.transform(template)
+            
             #segz = self.transform(segz)
             
-           
+        template = torch.from_numpy(template)   
         gt_box = torch.from_numpy(gt_box)    
         
         

@@ -171,9 +171,7 @@ def load_data(pair_infos,discrim,train = True):
     gt[0,8:9,6:11] = 1.
     gt[0,6:11,8:9] = 1.
     
-    gt = np.zeros((1,28,28))
     
-    gt[0,13:15,13:15] = 1.
     
     return z,x,gt,gt_box
     

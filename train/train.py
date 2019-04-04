@@ -22,7 +22,7 @@ import json
 import sys
 import h5py
 
-
+from utils import save_checkpoint
 
 parser = argparse.ArgumentParser(description='PyTorch SiamVGG')
 
@@ -111,7 +111,6 @@ def main():
         
         train( model, criterion, optimizer, epoch,coco)
         
-        #prec1 = validate(model,sub_model)
         
         is_best = False
         
@@ -162,7 +161,7 @@ def train( model,criterion, optimizer, epoch,coco):
         z = Variable(z)
         x = x.cuda()
         x = Variable(x)
-        template = template.cuda()
+        template = template.type(torch.FloatTensor).cuda()
         template = Variable(template)
         
         oup = model(z,x)
@@ -186,9 +185,7 @@ def train( model,criterion, optimizer, epoch,coco):
         losses.update(loss.item(), x.size(0))
         optimizer.zero_grad()
         loss.backward()
-        
-        #torch.nn.utils.clip_grad_norm(sub_model.parameters(), 10)
-        
+                
         optimizer.step()    
         
         batch_time.update(time.time() - end)

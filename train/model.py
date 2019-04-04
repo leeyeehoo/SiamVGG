@@ -42,11 +42,12 @@ class SiameseNet(nn.Module):
         
         mod = models.vgg16(pretrained = True)
         
-        for i in xrange(len(self.model.state_dict().items())):
+        for i in xrange(len(self.model.state_dict().items())-2):
             self.model.state_dict().items()[i][1].data[:] = mod.state_dict().items()[i][1].data[:]
         
     def branch(self,allin):
         allout = self.model(allin)
+        
         return allout
 
     def forward(self, z, x):
