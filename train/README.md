@@ -8,3 +8,5 @@ Try `python label_preprocess.py FILE OUTPUTFILE PATH` to do the preprocess for y
 **training**
 
 Firstly, we suppose you download the `ILSVRC` and `YOUTUBE` dataset both. If you only have ILSVRC dataset, you should modify the `dataset.py` to remove the `YOUTUBE` part.
+
+Try `python train.py GPU TASK --pre='PATH_TO_SAVED_MODEL'`. Choose `GPU` as `0` if you only have one GPU (currently we don't suppose multi GPUs). `TASK` is the name of your saved file. For example, if your save a model in `backup/bestSIAMVGG.pth.tar` and you want to train on your single GPU and the task name is `SIAMVGG`, your command should be `python train.py 0 SIAMVGG --pre='backup/bestSIAMVGG.pth.tar'`.
