@@ -1,3 +1,5 @@
+*Minimal Code for Training*
+
 **Dataset**
 
 [ILSVRC](http://bvisionweb1.cs.unc.edu/ilsvrc2015/download-videos-3j16.php)
