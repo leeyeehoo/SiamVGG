@@ -2,7 +2,7 @@
 
 **Before you read the code**: It's very unhealthy for the whole community to release only the testing project without releasing training code. So we decided to release whole of our project.
 
-SiamVGG: Visual Tracking with Deeper Siamese Networks
+**SiamVGG: Visual Tracking with Deeper Siamese Networks**
 
 Won 4th place in [VOT2018 Realtime Challenge](http://www.votchallenge.net/vot2018/)
 
