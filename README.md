@@ -2,6 +2,8 @@
 
 **SiamVGG: Visual Tracking with Deeper Siamese Networks**
 
+The accuracy may be improved by using cv2 instead of PIL. I'll developing it later (if you are interested in it you can modified it yourself).
+
 Won 4th place in [VOT2018 Realtime Challenge](http://www.votchallenge.net/vot2018/)
 
 [Demo](https://www.youtube.com/watch?v=cvP64cmiAmY)
