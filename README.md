@@ -12,7 +12,7 @@ SiamVGG with RPN module [link](https://github.com/leeyeehoo/SiamRPN-VGG)
 
 * train: Including the training code.
 * dataset: Instruction of generating the dataset note step by step.
-* vot2018submission: Including the original submission in VOT2018. Download the pretrained data from [Google Drive](https://drive.google.com/file/d/13rx9kMJ1lwpics1Qr9_uKjloqLHfMaoU/view?usp=sharing) and follow the instruction to set up the test. (Partial of the code are modified from [SiamFC-pytorch](https://github.com/huanglianghua/siamfc-pytorch), thanks to Lianghua.)
+* vot2018submission: Including the original submission in VOT2018. Download the pretrained data from [Google Drive](https://drive.google.com/file/d/13rx9kMJ1lwpics1Qr9_uKjloqLHfMaoU/view?usp=sharing) and follow the instruction to set up the test. (Partial of the code are modified from [SiamFC-pytorch](https://github.com/huanglianghua/siamfc-pytorch) and [https://github.com/HelloRicky123/Siamese-RPN], thanks to Lianghua and Ruiqi.)
 
 If you find our project useful, please cite our technical report:
 ```
